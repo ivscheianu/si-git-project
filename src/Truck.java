@@ -1,10 +1,11 @@
 public class Truck {
 
-    int  price;
-    String color;
+    private int price;
+    private String color;
 
-    Truck(String name, int price, String color) {
-
+    Truck(int price, String color) {
+        this.price = price;
+        this.color = color;
     }
 
 }
